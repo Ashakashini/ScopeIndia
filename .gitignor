@@ -1,0 +1,6 @@
+.gitignor
+.vs/
+SQLQuery1.sql
+SQLQuery2.sql
+ScopeIndia.sln
+dbo.Studenttable.data.sql

@@ -1,0 +1,37 @@
+﻿@model ScopeIndia.Models.OtpVerificationModel
+<div class="text-center">
+    <div>
+        <div class="container bg-success h-75 w-25 rounded-pill">
+            <form asp-asp-controller="WebHome" asp-action="OtpVerification" method="post">
+                <fieldset>
+                    <legend class="text-white">OTP Verification</legend>
+                    <div class="form-floating mx-auto col">
+                        <input asp-for="OTP" class="form-control col" id="OTP"/>
+                        <label asp-for="OTP" class="form-label col" >Otp</label>
+                        <span asp-asp-validation-for="OTP" class="text-danger" ></span>
+                    </div>
+                    <br/>
+                    <div class="form-floating mx-auto">
+                        <button class="btn btn-success" type="submit">Submit</button>
+                    </div>
+                    <br/>
+                </fieldset>
+            </form>
+
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-info mt-3">
+                    @ViewBag.Message
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+@if (TempData["OTPError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["OTPError"]
+    </div>
+}

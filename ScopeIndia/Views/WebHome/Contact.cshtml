@@ -1,0 +1,56 @@
+﻿@model ScopeIndia.Models.ContactModel
+<div class="text-center ">
+    <div>
+        <div class="container bg-dark  h-50 w-50 mt-3" id="form">
+        <form asp-controller="WebHome" asp-action="Contact" method="post" >
+            <fieldset>
+                <legend class="text-white">CONTACT FORM</legend>
+                 @* <div class="form-floating center-label mx-auto">
+                         <input asp-for="FromAddress" class="form-control col-6" id="FromAddress" />
+                         <label asp-for="FromAddress" class="form-label col-6">From Address</label>
+                         <span asp-validation-for="FromAddress" class="text-danger"></span>
+                 </div>
+                 <br/> *@
+                <div class="form-floating mx-auto ">
+                        <input asp-for="ToAddress" class="form-control col-6 rounded-circle" id="ToAddress" />
+                        <label asp-for="ToAddress" class="form-label col-6">To Address</label>
+                        <span asp-validation-for="ToAddress" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-floating mx-auto">
+                        <input asp-for="Subject" class="form-control col-6 rounded-circle" id="Subject" />
+                        <label asp-for="Subject" class="form-label col-6">Subject</label>
+                        <span asp-validation-for="Subject" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-floating mx-auto">
+                        <input asp-for="Message" class="form-control col-6 rounded-circle" id="Message" />
+                        <label asp-for="Message" class="form-label col-6">Message</label>
+                        <span asp-validation-for="Message" class="text-danger"></span>
+                </div>
+                <br />
+               
+                    <button class="btn btn-primary text-black" id="submit">SEND EMAIL</button>
+                   
+                
+                <br /><br/>
+            </fieldset>
+        </form>
+        </div>
+    </div>
+</div>
+
+<div id="hidden" >
+    
+    <p>@ViewBag.Email</p>
+</div>
+
+<script>
+   $("submit").Click(function(){
+       display: none;
+   })
+</script>
+
+@section Scripts{
+    @await Html.PartialAsync("/Views/Shared/_ValidationScriptsPartial.cshtml")
+}

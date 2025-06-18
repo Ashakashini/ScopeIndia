@@ -1,0 +1,66 @@
+﻿@model ScopeIndia.Models.StudentModel
+
+<div class="container border pt-4 mt-5 bg-dark col-8">
+    <h4 class="text-white">Student Dashboard</h4>
+    <div class="row">
+        <!-- LEFT SIDE: Profile Info -->
+        <div class="col-md-6">
+            @{
+                var avatar = ViewBag.Avatar as string;
+                if (string.IsNullOrEmpty(avatar))
+                {
+                    avatar = "default.jpg";
+                }
+                var imgPath = "/uploads/" + ViewBag.Avatar;
+            }
+            <img src="@imgPath" class="rounded-circle mb-3 p-1 mx-5" style="height:100px; width:100px;" alt="Profile Image" />
+
+
+           
+            <h5 class="mx-5 text-white">@* <strong>Name:</strong> *@Hello @ViewBag.Name</h5>
+            
+
+
+            @if (ViewBag.JoinedCourse != null)
+            {
+                <p class="mx-4 text-white">@* <strong>Course Name:</strong> *@ @ViewBag.JoinedCourse.CourseName</p>
+                <p style="line-break: normal;" class="text-white">@* <strong>Duration:</strong> *@ @ViewBag.JoinedCourse.Duration</p>
+                <p class="mx-5 text-white">@* <strong>Fee:</strong> *@ @ViewBag.JoinedCourse.Fee.ToString("C")</p>
+            }
+            else
+            {
+                <p class="text-white"><em>No course joined yet.</em></p>
+            }
+        </div>
+
+        <!-- RIGHT SIDE: Message + Button -->
+        <div class="col-md-6">
+            
+            <div class="form-floating mx-auto">
+                <input asp-for="StudentFirstName" class="form-control col-6" id="StudentFirstName" />
+                <label asp-for="StudentFirstName" class="form-label col-6">First Name</label>
+                <span asp-validation-for="StudentFirstName" class="text-danger"></span>
+            </div><br/>
+            <div class="form-floating mx-auto">
+                <input asp-for="StudentEmail" class="form-control col-6" id="StudentFirstName" />
+                <label asp-for="StudentEmail" class="form-label col-6">Email</label>
+                <span asp-validation-for="StudentEmail" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="text-center mt-3">
+                <a href="@Url.Action("EditProfile", "WebHome")" class="btn btn-primary">Edit Profile</a>
+                @if (ViewBag.Cid != null)
+                {
+                    <a href="@Url.Action("Course", "WebHome")" class="btn btn-primary ms-2">Change Course</a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Course", "WebHome")" class="btn btn-primary ms-2">Select Course</a>
+                }
+
+            </div>
+           
+        </div>
+    </div>
+</div>

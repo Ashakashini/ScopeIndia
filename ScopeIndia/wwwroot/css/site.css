@@ -1,0 +1,93 @@
+body {
+    overflow-x: hidden;
+    background-color: #dbe4ff;
+}
+html {
+  font-size: 14px;
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.about-us-container{
+    text-align:center;
+}
+.about-us-title {
+    font-family: 'Showcard Gothic';
+    color: yellow;
+}
+.about-us-subtitle{
+    color:white;
+    font-family:'Eras ITC' ;
+}
+.about-us-description{
+    color:white;
+    text-align:justify;
+    text-justify:inter-word;
+}
+#hidden{
+    display:hide;
+}
+.star {
+    
+    animation: blink infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.star1 {
+    
+    animation-duration: 1s;
+}
+
+.star2 {
+    
+    animation-duration: 1.2s;
+}
+
+.star3 {
+    
+    animation-duration: 1.4s;
+}
+
+.star4 {
+    
+    animation-duration: 1.2s;
+}
+
+.star5 {
+   
+    animation-duration: 1s;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+#background{
+    background-image:url("../back2.jpg")
+}
+

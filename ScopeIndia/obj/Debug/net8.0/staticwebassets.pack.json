@@ -1,0 +1,437 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ScopeIndia.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ScopeIndia.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\ASP.NET.jpeg",
+      "PackagePath": "staticwebassets\\ASP.NET.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\Devops-training-scopeindia.jpg",
+      "PackagePath": "staticwebassets\\Devops-training-scopeindia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\about.jpg",
+      "PackagePath": "staticwebassets\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\back2.jpg",
+      "PackagePath": "staticwebassets\\back2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\black.jpg",
+      "PackagePath": "staticwebassets\\black.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\center.png",
+      "PackagePath": "staticwebassets\\center.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\digital marketing.jpg",
+      "PackagePath": "staticwebassets\\digital marketing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\grooming.png",
+      "PackagePath": "staticwebassets\\grooming.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\java.jpg",
+      "PackagePath": "staticwebassets\\java.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\last.png",
+      "PackagePath": "staticwebassets\\last.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\logo2.PNG",
+      "PackagePath": "staticwebassets\\logo2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\mern-stack.jpg",
+      "PackagePath": "staticwebassets\\mern-stack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\python.jpg",
+      "PackagePath": "staticwebassets\\python.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\scope-india-logo-bird.png",
+      "PackagePath": "staticwebassets\\scope-india-logo-bird.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\scopeBackground.png",
+      "PackagePath": "staticwebassets\\scopeBackground.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\scopelogo.png",
+      "PackagePath": "staticwebassets\\scopelogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\second1.png",
+      "PackagePath": "staticwebassets\\second1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\slider_bg.jpg",
+      "PackagePath": "staticwebassets\\slider_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\star1.png",
+      "PackagePath": "staticwebassets\\star1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\training.png",
+      "PackagePath": "staticwebassets\\training.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\21955ce3-950c-427c-aeb1-a34cd904a23a.png",
+      "PackagePath": "staticwebassets\\uploads\\21955ce3-950c-427c-aeb1-a34cd904a23a.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\23279613-8609-4006-87e7-c111df9bcbf3.png",
+      "PackagePath": "staticwebassets\\uploads\\23279613-8609-4006-87e7-c111df9bcbf3.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\360_F_437935932_eJsRZ3d11tpE5g7gW7DfVboXdkSAorLI.jpg",
+      "PackagePath": "staticwebassets\\uploads\\360_F_437935932_eJsRZ3d11tpE5g7gW7DfVboXdkSAorLI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\6820ac77556434e8b9a2a1b90524a2b7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6820ac77556434e8b9a2a1b90524a2b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\6cc0e3ee-e33e-4435-9248-cb6230dc9e1c.png",
+      "PackagePath": "staticwebassets\\uploads\\6cc0e3ee-e33e-4435-9248-cb6230dc9e1c.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\840bc80c-ee41-452f-9fe3-0381b9087238.png",
+      "PackagePath": "staticwebassets\\uploads\\840bc80c-ee41-452f-9fe3-0381b9087238.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\Screenshot 2024-07-30 195639.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2024-07-30 195639.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\Screenshot 2024-08-21 215023.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2024-08-21 215023.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\Screenshot 2024-08-23 192541.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2024-08-23 192541.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\Screenshot 2025-04-01 204737.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2025-04-01 204737.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\WhatsApp Image 2025-03-25 at 10.41.33_4427f418.jpg",
+      "PackagePath": "staticwebassets\\uploads\\WhatsApp Image 2025-03-25 at 10.41.33_4427f418.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\about.jpg",
+      "PackagePath": "staticwebassets\\uploads\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\arrowmark.png",
+      "PackagePath": "staticwebassets\\uploads\\arrowmark.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\asha.jpg",
+      "PackagePath": "staticwebassets\\uploads\\asha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\asha1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\asha1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\audio1.png",
+      "PackagePath": "staticwebassets\\uploads\\audio1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\bakery_Front.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bakery_Front.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\bakery_chef.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bakery_chef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\bread_Cartoon.avif",
+      "PackagePath": "staticwebassets\\uploads\\bread_Cartoon.avif"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\f70d3ca8-3fc4-4fbf-899a-2661502b8025.png",
+      "PackagePath": "staticwebassets\\uploads\\f70d3ca8-3fc4-4fbf-899a-2661502b8025.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\image1.png",
+      "PackagePath": "staticwebassets\\uploads\\image1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\ol-ul.png",
+      "PackagePath": "staticwebassets\\uploads\\ol-ul.png"
+    },
+    {
+      "Id": "C:\\Users\\Asha\\source\\repos\\ScopeIndia\\ScopeIndia\\wwwroot\\uploads\\roe&colspan.png",
+      "PackagePath": "staticwebassets\\uploads\\roe&colspan.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ScopeIndia.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ScopeIndia.props",
+      "PackagePath": "build\\ScopeIndia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ScopeIndia.props",
+      "PackagePath": "buildMultiTargeting\\ScopeIndia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ScopeIndia.props",
+      "PackagePath": "buildTransitive\\ScopeIndia.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

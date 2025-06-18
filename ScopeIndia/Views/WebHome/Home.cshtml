@@ -1,0 +1,213 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model ScopeIndia.Models.StudentModel
+<div class="text-center">
+     <img class="img-fluid" style="width:100%;height:100%;top:-2px;"src="~/scopeBackground.png"/>
+     <img style="position:absolute;top:350px;left:380px;" src="/center.png" />
+</div>
+<div class="container" style="height:10px;"></div>
+<div class="mt-5" style="width:100%;" id="background">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" >
+        <div class="carousel-inner" style="width:100%;">
+            <!-- First Image -->
+            <div class="carousel-item active container-fluid" style="width:100%;" >
+                <div class="d-flex justify-content-center" style="gap:15px;width:100%;">
+                   
+                    <img src="~/ASP.NET.jpeg" class="img-fluid" alt="Image 1" style="flex: 1; max-width: 63%; height: auto" />
+                    <img src="~/Devops-training-scopeindia.jpg" class="img-fluid mx-2" alt="Image 2" style="flex: 1; max-width: 43%; height: 100%;" />
+                    <img src="~/java.jpg" class="img-fluid mx-2" alt="Image 3" style="flex: 1; max-width: 43%; height: auto;" />
+                    
+                </div>
+            </div>
+           
+            <!-- Second Image -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <img src="~/Devops-training-scopeindia.jpg"
+                         class="img-fluid mx-2"
+                         alt="Image 2"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                    <img src="~/java.jpg"
+                         class="img-fluid center-image"
+                         alt="Image 3"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                    <img src="~/mern-stack.jpg"
+                         class="img-fluid mx-2"
+                         alt="Image 4"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                </div>
+            </div>
+            <!-- Third Image -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <img src="~/java.jpg"
+                         class="img-fluid mx-2"
+                         alt="Image 3"
+                         style="flex: 1; max-width: 43%; height: auto;"  />
+                    <img src="~/mern-stack.jpg"
+                         class="img-fluid center-image"
+                         alt="Image 4"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                    <img src="~/python.jpg" class="img-fluid mx-2" alt="Image 5" style="flex: 1; max-width: 43%; height: auto;" />
+                </div>
+            </div>
+            <!-- Forth Image -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <img src="~/mern-stack.jpg"
+                         class="img-fluid mx-2"
+                         alt="Image 3"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                    <img src="~/python.jpg"
+                         class="img-fluid center-image"
+                         alt="Image 4"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                    <img src="~/digital marketing.jpg" class="img-fluid mx-2" alt="Image 5" style="flex: 1; max-width: 43%; height: auto;" />
+                </div>
+            </div>
+            <!-- Fifth Image -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <img src="~/python.jpg"
+                         class="img-fluid mx-2"
+                         alt="Image 3"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                    <img src="~/digital marketing.jpg"
+                         class="img-fluid center-image"
+                         alt="Image 4"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                    <img src="~/ASP.NET.jpeg" class="img-fluid mx-2" alt="Image 5" style="flex: 1; max-width: 43%; height: auto;" />
+                </div>
+            </div>
+            <!-- Sixth Image -->
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <img src="~/digital marketing.jpg"
+                         class="img-fluid mx-2"
+                         alt="Image 3"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                    <img src="~/ASP.NET.jpeg"
+                         class="img-fluid center-image"
+                         alt="Image 4"
+                         style="flex: 1; max-width: 43%; height: auto;" />
+                    <img src="~/Devops-training-scopeindia.jpg" class="img-fluid mx-2" alt="Image 5" style="flex: 1; max-width: 43%; height: auto;" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 16%, rgba(16,8,94,0.8820320364473915) 93%);width: 100%;
+    height: 100px;">
+    <div class="container mt-5 " style="padding-top:20px;padding-bottom:20px; background-color:lightgray;">
+        <div class="row">
+            <!-- First Column -->
+            <div class="col-md-6" style="padding-left:50px;">
+                
+                <iframe width="460"
+                        height="100%"
+                        
+                        src="https://www.youtube.com/embed/25tKj16fhC0"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <!-- Second Column -->
+            <div class="col-md-6" style="padding-right:90px;">
+                <form asp-controller="WebHome" asp-action="Contact" method="post">
+                    <fieldset>
+                        <legend ></legend>
+                        <h1 style="color:darkblue;font-family: 'Arial Rounded MT';">Scope INDIA is open 365 days a year</h1>
+                        <p>We are open 7 days 24 hrs to talk to you and listen to your queries.</p>
+                        <h2 style="color:green;font-family: 'Arial Rounded MT';">GET A FREE CALL BACK</h2>
+                        <div class="form-floating">
+                            <input asp-for="StudentFirstName" class="form-control" style="border: 1px solid black;" />
+                            <label asp-for="StudentFirstName" class="form-label">Enter Your First Name</label>
+                             <span asp-validation-for="StudentFirstName" class="text-danger"></span>
+                        </div>
+                        <br/>
+                        <div class="form-floating">
+                            <input asp-for="StudentLastName" class="form-control" style="border: 1px solid black;" />
+                            <label asp-for="StudentLastName" class="form-label">Enter Your Last Name</label>
+                            <span asp-validation-for="StudentLastName" class="text-danger"></span>
+                        </div>
+                        <br/>
+                        <button class="btn " type="submit" style="width:100%;background-color:lime;">Call me</button>
+                        <br/>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div class="container mt-5 " style="padding-top:400px;padding-left:25%;">
+    <div class="row">
+    <img class="star star1 img-fluid" style="height:80px;width:100px;margin-top:40px;" src="~/star1.png" />
+        <img class="star star2 img-fluid" style="height:120px;width:150px;margin-left:-35px;margin-top:-10px;" src="~/star1.png" />
+        <img class="star star3 img-fluid" style="height:170px;width:200px;margin-top:-63px;margin-left:-45px;" src="~/star1.png" />
+        <img class="star star4 img-fluid" style="height:120px;width:150px;margin-left:-44px;margin-top:-10px;" src="~/star1.png" />
+        <img class="star star5 img-fluid" style="height:80px;width:100px;margin-top:40px;margin-left:-35px;" src="~/star1.png" />
+        <p>Google 4.9 * Rated Institute</p>
+       
+    </div>
+</div>
+<div style="padding-left:90px;padding-right:90px;">
+    <h2 style="text-align:center;">SCOPE INDIA,YOUR CAREER PARTNER!</h2>
+    <h3 style="text-align:center;color:black;">One of India's best Training destinations for Software, Networking, and Cloud Computing courses with 17 years of Industrial experience.</h3>
+    <p style="text-align:justify;color:black;line-height:1.7rem;font-weight:250px;">Software, Networking, and Cloud Professional Education Centre in Kerala and Tamil Nadu from <b>Suffix E Solutions </b>with WORKING PROFESSIONALS oriented on-the-job TRAINING model. SCOPE INDIA provides courses for <b>Software Programming </b>in Python (Data Science | Artificial Intelligence | Machine Learning | Deep Learning, Data Analytics), Java, PHP, .Net, MERN,<b>Software Testing</b> Manual and Automation, <b>Cloud Computing </b>(AWS | Azure), <b>Server Administration </b>(MicroSoft MCSE | Linux RHCE), Networking (CCNA), <b>DevOps, Mobile App Development </b>in Flutter, and <b>Digital Marketing</b>. A Training with a 100% Trusted Job-Based Internship Model. SCOPE INDIA has a Strong Placement Cell that provides jobs to thousands of students annually. We assure you, you won't regret it after training from SCOPE INDIA!</p>
+    <p style="top:10px;">This is how SCOPE INDIA can support both newbies and those experienced in the industry to upgrade their skills.</p><br/>
+    <div>
+        <button class="btn " type="submit" style="width:100%;font-size:20px;background-color:blueviolet;color:white;">Recent Placement</button>
+    </div>
+    <br/>
+    <div>
+        <button class="btn " type="submit" style="width:100%;font-size:20px;background-color:darkcyan;color:white;">Courses</button>
+    </div>
+    <br/>
+    <div>
+        <button class="btn " type="submit" style="width:100%;font-size:20px;background-color:lightgreen;color:white;">Register Now!</button>
+    </div>
+    <br/>
+    <div>
+    <button class="btn " type="submit" style="width:100%;font-size:20px;background-color:forestgreen;color:white;">Chat on Whatsapp</button>
+    </div>
+</div>
+<div style="top:50px;">
+    <div class="row" style=" padding-left:90px;padding-right:90px; margin-top:80px;">
+    <div class="col-3">
+        <img src="~/training.png" alt="training"/>
+        <h2>Training</h2>
+            <p>
+                You are trained under Suffix E Solutions working professionals, on-the-job training model.
+            </p>
+    </div>
+    <div class="col-3">
+        <img src="~/second1.png" alt="training" />
+        <h2>Internship</h2>
+            <p>
+                After course completion, you will be proceeded to live projects with a 6 months experience certificate.
+            </p>
+    </div>
+    <div class="col-3">
+            <img style="display: block;margin-left: 30%;margin-right: auto;height:70px;width:70px;" src="~/grooming.png" alt="training" />
+        <h2 style="margin-left:20%;">Grooming</h2>
+            <p style="text-align:justify;">
+                CV Preparation, Interview Preparation, and Personality Development.
+            </p>
+    </div>
+    <div class="col-3">
+        <img src="~/last.png" alt="fourth"/>
+        <h2>Placement</h2>
+            <p style="text-align:justify;">
+                Gives 100% FREE placement support to all our fellow techies through SCOPE INDIA's Placement Cell.
+            </p>
+    </div>
+    </div>
+</div>

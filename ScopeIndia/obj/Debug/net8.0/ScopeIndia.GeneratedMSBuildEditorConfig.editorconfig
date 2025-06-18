@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ScopeIndia
+build_property.RootNamespace = ScopeIndia
+build_property.ProjectDir = C:\Users\Asha\source\repos\ScopeIndia\ScopeIndia\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Asha\source\repos\ScopeIndia\ScopeIndia
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/Aboutus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxBYm91dHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/Course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxDb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/DashboardJoin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxEYXNoYm9hcmRKb2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/FirstLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxGaXJzdExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/JoinCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxKb2luQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/OtpVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxPdHBWZXJpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/PasswordSetSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxQYXNzd29yZFNldFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/PasswordSetting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxQYXNzd29yZFNldHRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/WebHome/Student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViSG9tZVxTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asha/source/repos/ScopeIndia/ScopeIndia/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4mgwadjq7k

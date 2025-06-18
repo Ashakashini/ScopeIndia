@@ -1,0 +1,59 @@
+﻿@if (TempData["PasswordSetAlert"] != null)
+{
+    <div class="alert alert-warning" role="alert">
+        @TempData["PasswordSetAlert"]
+    </div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (ViewBag.EmailValidationMessage != null)
+{
+    <p>@ViewBag.EmailValidationMessage</p>
+}
+@model ScopeIndia.Models.LoginModel
+<div class="text-center">
+    <div>
+        <div class="container bg-info mt-5 w-25 h-100">
+            <form asp-controller="WebHome" asp-action="Login" method="post">
+                <fieldset class="row">
+                    <legend>LOGIN</legend>
+                    <div class="col">
+                        <div class="form-floating mx-auto">
+                            <input asp-for="Email" class="form-control col-6" id="Email" placeholder="Email" />
+                            <label asp-for="Email" class="form-label col-6"></label>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <br/>
+                        <div class="form-floating mx-auto">
+                            <input asp-for="Password" class="form-control col-6" id="Password" placeholder="Password" />
+                            <label asp-for="Password" class="form-label col-6"></label>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <a style="text-decoration:none;color:green;" href="~/WebHome/FirstLogin" alt="login">New Login? Set Password</a>
+                        <br/>
+                        <div class="form-check mx-auto">
+                            <label>KeepMe Loggedin</label>
+                            <input asp-for="KeepMeLoggedIn" type="checkbox" id="KeepMeLoggedIn" />
+                            
+                            <span  class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <br/>
+                        <a style="text-decoration:none;color:green;" href="~/WebHome/FirstLogin" alt="">Forgot Password</a>
+                        <br/>
+
+
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+

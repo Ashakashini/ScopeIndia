@@ -1,0 +1,29 @@
+﻿@model ScopeIndia.Models.FirstLoginModel
+<div class=" text-center ">
+    <div>
+        <div class="container rounded-pill bg-success mt-5 w-25 h-auto">
+            <form asp-controller="WebHome" asp-action="FirstLogin" method="post">
+                <fieldset>
+                    <legend class="text-white">FIRST LOGIN</legend>
+                    <div class="form-floating mx-auto col">
+                        <input asp-for="Email" class="form-control" id="Email" name="email1"/>
+                        <label asp-for="Email" class="form-label">Email</label>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <br/>
+                    <div class="form-floating mx-auto">
+                        <button class="btn btn-dark" type="submit">Submit</button>
+                    </div>
+                    <br/>
+                </fieldset>
+
+            </form>
+            @if (ViewBag.EmailValidationMessage != null)
+            {
+                <div class="alert alert-info mt-3">
+                    @ViewBag.EmailValidationMessage
+                </div>
+            }
+        </div>
+    </div>
+</div>

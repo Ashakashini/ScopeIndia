@@ -1,0 +1,18 @@
+﻿@model ScopeIndia.Models.JoinCourseModel
+
+<div class="container mt-4">
+    <h2>Course You Join</h2>
+
+    <div class="card p-3 mb-3" style="max-width: 500px;5px solid black">
+        <p class="text-success text-center" style="text-shadow:2px 2px #FF0000;font-weight:bold;font-size:20px;">@Model.CourseName</p>
+        <p><strong>Fee:</strong> @Model.Fee.ToString("C")</p>
+        <p><strong>Duration:</strong>@Model.Duration</p> 
+
+        <form asp-controller="WebHome" asp-action="ConfirmJoin" method="post">
+             <input type="hidden" name="courseId" value="@Model.CourseId" />
+            <button type="submit" class="btn btn-primary">Confirm Join</button>
+            <a asp-action="Dashboard" class="btn btn-secondary ms-2">Cancel</a>
+        </form>
+    </div>
+</div>
+

@@ -1,0 +1,232 @@
+﻿@model ScopeIndia.Models.StudentModel
+<div class="text-center" >
+    <div>
+        <div class="container bg-dark mt-3 ">
+            <form asp-controller="WebHome" asp-action="Student" method="post" enctype="multipart/form-data">
+            <fieldset class="row">
+                <legend class="text-white">REGISTERATION</legend>
+                <div class="col">
+                    <div class="form-floating mx-auto" >
+                        <input asp-for="StudentFirstName" class="form-control col-6" id="StudentFirstName"/>
+                        <label asp-for="StudentFirstName" class="form-label col-6">First Name</label>
+                        <span asp-validation-for="StudentFirstName" class="text-danger"></span>
+                    </div>
+                    <br/>
+                    <div class="form-floating mx-auto">
+                        <input asp-for="StudentLastName" class="form-control col-6" id="StudentFirstName" />
+                        <label asp-for="StudentLastName" class="form-label col-6">Last Name</label>
+                        <span asp-validation-for="StudentLastName" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-floating mx-auto text-white">
+                            <label style="margin-top:-15px;">Gender :- </label>
+                            
+                                <input style="margin-left:-120px;"type="radio" name="gender" value="male" checked/> Male
+
+
+
+                            <input style="margin-left:20px;" type="radio" name="gender" value="female" /> Female
+
+
+
+                            <input style="margin-left:30px;" type="radio" name="gender" value="other" /> Other
+                           
+                            <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                        <br />
+                        
+                    <div class="form-floating mx-auto">
+                        <input asp-for="StudentDateOfBirth" class="form-control col-6" id="StudentFirstName" />
+                        <label asp-for="StudentDateOfBirth" class="form-label col-6">Date Of Birth</label>
+                        <span asp-validation-for="StudentDateOfBirth" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-floating mx-auto">
+                        <input asp-for="StudentEmail" class="form-control col-6" id="StudentFirstName" />
+                        <label asp-for="StudentEmail" class="form-label col-6">Email</label>
+                        <span asp-validation-for="StudentEmail" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-floating mx-auto">
+                        <input asp-for="StudentPhoneNumber" class="form-control col-6" id="StudentFirstName" />
+                        <label asp-for="StudentPhoneNumber" class="form-label col-6">Phone Number</label>
+                        <span asp-validation-for="StudentPhoneNumber" class="text-danger"></span>
+                    </div>
+                    <br />
+                </div>
+                <div class="col">
+                    <div class="form-floating mx-auto">
+                            <select asp-for="StudentCountry" class="form-select" id="StudentCountry" style="text-align:center;">
+                            <option value="" >- - Select Country - -</option>
+                            <option value="USA">United States</option>
+                            <option value="Canada">Canada</option>
+                            <option value="India">India</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                        
+                        <label asp-for="StudentCountry" class="form-label col-6">Country</label>
+                        <span asp-validation-for="StudentCountry" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-floating mx-auto">
+                            <select asp-for="StudentState" class="form-select" id="StudentState" style="text-align:center;">
+                                <option value="">- - Select State - -</option>
+                               
+                                
+                            </select>
+                       
+                        <label asp-for="StudentState" class="form-label col-6">State</label>
+                        <span asp-validation-for="StudentState" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-floating mx-auto">
+                            <select asp-for="StudentCity" class="form-select" id="StudentCity" style="text-align:center;">
+                                <option value="">- - Select City - -</option>
+                                
+                            </select>
+                        
+                        <label asp-for="StudentCity" class="form-label col-6">City</label>
+                        <span asp-validation-for="StudentCity" class="text-danger"></span>
+                    </div>
+                    <br />
+                        <div class="form-floating mx-auto text-white">
+                            <label style="margin-top:-15px;">Hobbies :- </label>
+
+                            <input type="checkbox" name="Hobbies" value="Reading" class="hobby-checkbox" checked /> Reading
+                            <input type="checkbox" name="Hobbies" value="Listening" class="hobby-checkbox" style="margin-left:20px;" /> Listening
+                            <input type="checkbox" name="Hobbies" value="Watching" class="hobby-checkbox" style="margin-left:30px;" /> Watching
+
+                            <br /><br />
+
+                            <div class="form-floating mx-auto">
+                                <input type="text" class="form-control col-6" id="OtherHobbies" placeholder="Other Hobbies" />
+                                <label class="form-label col-6">Other Hobbies</label>
+                            </div>
+
+                            <br />
+
+                           
+                            <input type="hidden" asp-for="StudentHobbies" id="StudentHobbies" />
+
+                            <span asp-validation-for="StudentHobbies" class="text-danger"></span>
+                        </div>
+                        <br />
+                    <div class="form-floating mx-auto">
+                        <input type="file" asp-for="StudentUploadAvatar" class="form-control col-6" id="StudentUploadAvatar" />
+                        <label asp-for="StudentUploadAvatar" class="form-label col-6">Upload Avatar</label>
+                        <span asp-validation-for="StudentUploadAvatar" class="text-danger"></span>
+                    </div>
+                    <br />
+                </div>
+                <br/>
+                <button class="btn btn-primary text-black " id="submit">Continue Registeration</button>
+                <br/>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    const countryStates = {
+        "USA": ["California", "New York", "Texas", "Florida", "Illinois"],
+        "Canada": ["Ontario", "Quebec", "British Columbia", "Alberta", "Manitoba"],
+        "India": ["Maharashtra", "Karnataka", "Delhi", "Tamil Nadu", "Gujarat"],
+        "Australia": ["New South Wales", "Victoria", "Queensland", "Western Australia", "South Australia"]
+    };
+
+    const stateCities = {
+        "California": ["Los Angeles", "San Francisco", "San Diego"],
+        "New York": ["New York City", "Buffalo", "Rochester"],
+        "Texas": ["Houston", "Dallas", "Austin"],
+        "Florida": ["Miami", "Orlando", "Tampa"],
+        "Illinois": ["Chicago", "Springfield", "Naperville"],
+        "Ontario": ["Toronto", "Ottawa", "Hamilton"],
+        "Quebec": ["Montreal", "Quebec City", "Laval"],
+        "British Columbia": ["Vancouver", "Victoria", "Kelowna"], 
+        "Alberta": ["Calgary", "Edmonton", "Red Deer"], 
+        "Manitoba": ["Winnipeg", "Brandon", "Steinbach"], 
+        "Maharashtra": ["Mumbai", "Pune", "Nagpur"],
+        "Karnataka": ["Bangalore", "Mysore", "Hubli"],
+        "Delhi": ["New Delhi"], 
+        "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"], 
+        "Gujarat": ["Ahmedabad", "Surat", "Vadodara"], 
+        "New South Wales": ["Sydney", "Newcastle", "Wollongong"],
+        "Victoria": ["Melbourne", "Geelong", "Ballarat"], 
+        "Queensland": ["Brisbane", "Gold Coast", "Townsville"], 
+        "Western Australia": ["Perth", "Fremantle", "Bunbury"], 
+        "South Australia": ["Adelaide", "Mount Gambier", "Whyalla"] 
+    };
+
+
+    const countryDropdown = document.getElementById('StudentCountry');
+    const stateDropdown = document.getElementById('StudentState');
+    const cityDropdown = document.getElementById('StudentCity');
+
+    countryDropdown.addEventListener('change', function () 
+    {
+        const country = this.value;
+        stateDropdown.innerHTML = '<option value="">- - Select State - -</option>';
+        cityDropdown.innerHTML = '<option value="">- - Select City - -</option>';
+        cityDropdown.disabled = true;
+        if (country && countryStates[country]) 
+        {
+            stateDropdown.disabled = false;
+            countryStates[country].forEach(state => {
+                const option = document.createElement('option');
+                option.value = state;
+                option.textContent = state;
+                stateDropdown.appendChild(option);
+            });
+        } 
+        else 
+        {
+            stateDropdown.disabled = true; 
+        }
+    });
+        stateDropdown.addEventListener('change', function () 
+        {
+            const state = this.value;
+            cityDropdown.innerHTML = '<option value="">- - Select City - -</option>';
+            if (stateCities[state]) 
+            {
+                cityDropdown.disabled = false;
+                stateCities[state].forEach(city => {
+                    const option = document.createElement('option');
+                    option.value = city;
+                    option.textContent = city;
+                    cityDropdown.appendChild(option);
+                });
+            } 
+            else 
+            {
+                cityDropdown.disabled = stateCities[state] ? false : true; // Disable City if no valid state
+            }
+        });
+</script>
+
+<script>
+    function updateHobbies() {
+        // Get selected checkboxes
+        let selectedHobbies = Array.from(document.querySelectorAll('.hobby-checkbox:checked'))
+            .map(checkbox => checkbox.value);
+
+        // Get other hobbies input value
+        let otherHobbies = document.getElementById('OtherHobbies').value.trim();
+
+        // Combine both values
+        if (otherHobbies) {
+            selectedHobbies.push(otherHobbies);
+        }
+
+        // Store in hidden input field
+        document.getElementById('StudentHobbies').value = selectedHobbies.join(', ');
+    }
+
+    // Attach event listeners to checkboxes and input field
+    document.querySelectorAll('.hobby-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', updateHobbies);
+    });
+
+    document.getElementById('OtherHobbies').addEventListener('input', updateHobbies);
+</script>
